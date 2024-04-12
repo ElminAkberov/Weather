@@ -1,0 +1,51 @@
+body {
+    background: #00112E;
+    font-family: "Reddit Mono";
+    color: #fff;
+}
+#weather {
+    width: 30%;
+    border-radius: 10px;
+    height: 90vh;
+    margin: 5vh auto;
+    background-image: linear-gradient(to right bottom, #05f7b8, #00d3d7, #00abdb, #2081be, #59588c);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1 {
+    font-size: 4em;
+    display: inline;
+}
+h2 {
+    display: inline;
+    font-size: 35px;
+}
+.container-fluid {
+    padding: 20px 10px;
+}
+input {
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    column-gap: 20px;
+}
+button{
+    padding:10px 15px;
+    border-radius: 50%;
+    outline: none;
+    column-gap: 5px;
+    border: 0;
+}
+img{
+    width: 150px;
+    margin-top: 20px;
+}

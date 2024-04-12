@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/decedb75f1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="weather">
+        <div class="container-fluid">
+            <div class="btn" style="display: flex;justify-content: center;">
+                <input type="text" />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="container">
+                <span id="images"><img src="img/sun.png" width="150" style="padding: 15px 0;" alt=""></span>
+                <h1>15°C</h1>
+                <h2>Baku</h2>
+            </div>
+            <div style="display: flex;justify-content: space-around; align-items: center; font-size: 16px;">
+                <div>
+                    <i class="fa-solid fa-droplet"></i> <span id="humid">64%</span>
+                    <p>Humidity</p> 
+                </div>
+                <div>
+                    <i class="fa-solid fa-wind"></i> <span id="wind">18 km/h</span>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
